@@ -1,0 +1,18 @@
+#Macports - soon to be gone!
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+export EDITOR=emacs
+
+#Macports fighting with brew?!!
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/bin:/usr/X11/bin:/opt/local/bin
+
+
+#CLI Colors
+export CLICOLOR=1
+#Change the dark blue to something better
+export LSCOLORS=gxfxcxdxbxegedabagacad
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
