@@ -16,3 +16,7 @@ alias psuser='ps -ax -j'
 
 #GUI Applications
 alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox-bin -ProfileManager -no-remote'
+
+#MacPorts installed applications
+alias td='/opt/local/bin/twistd-2.7'
+
