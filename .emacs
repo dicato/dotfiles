@@ -4,3 +4,9 @@
 (global-set-key (kbd "M-RET") 'ns-toggle-fullscreen)
 
 (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+
+(require 'highlight-indentation)
+(add-hook 'python-mode-hook 'highlight-indentation)
+
+(global-hl-line-mode t)
+(set-face-background 'hl-line "honeydew")
