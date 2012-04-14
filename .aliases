@@ -3,6 +3,7 @@
 #ls
 alias ll='ls -alFh'
 alias la='ls -A'
+alias chkpath="echo $PATH |tr \':\' \'\\\n\' |xargs ls -ld"
 
 #File manipulations
 alias cp='cp -i'
@@ -19,4 +20,9 @@ alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox-bin -ProfileMana
 
 #MacPorts installed applications
 alias td='/opt/local/bin/twistd-2.7'
+
+#Git Aliases
+alias gl='git log'
+alias gd='git diff'
+alias gs='git status'
 
