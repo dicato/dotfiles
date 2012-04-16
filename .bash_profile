@@ -22,4 +22,6 @@ shopt -s nocaseglob
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2)" scp sftp ssh
 
-source .git-completion.bash
+if [ -e .git-completion.bash ]; then source .git-completion.bash; fi
+if [ -e "$HOME/.work-env" ]; then source $HOME/.work-env; fi
+

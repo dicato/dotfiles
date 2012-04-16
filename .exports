@@ -1,7 +1,7 @@
 #Macports - soon to be gone!
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
-export EDITOR=emacs
+export EDITOR=vim
 
 #Macports fighting with brew?!!
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/bin:/usr/X11/bin:/opt/local/bin
@@ -16,3 +16,7 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
+
+export ANDROID_HOME=$HOME/code/android-sdk-macosx
+export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
+
