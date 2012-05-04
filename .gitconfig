@@ -1,0 +1,12 @@
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	pullom = pull origin master
+	pushom = push origin master
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	incoming = log HEAD..origin
+	outgoing = log origin..HEAD
+[color]
+	ui = true
