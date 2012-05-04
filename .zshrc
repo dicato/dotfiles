@@ -33,8 +33,5 @@ plugins=(git python)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/bin:/usr/X11/bin:/opt/local/bin
-
 if [ -e "$HOME/.work-env" ]; then source $HOME/.work-env; fi
 

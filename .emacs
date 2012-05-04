@@ -11,12 +11,11 @@
 (global-hl-line-mode t)
 (set-face-background 'hl-line "honeydew")
 
-(add-to-list 'load-path "/opt/local/share/emacs/site-lisp/color-theme-6.6.0")
+(add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0")
+(require 'color-theme)
 
 (add-to-list 'load-path "~/.emacs.d/emacs-color-theme-solarized")
 (require 'color-theme-solarized)
-
-(require 'color-theme)
 
 (if window-system
     (eval-after-load "color-theme"
