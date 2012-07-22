@@ -1,0 +1,26 @@
+// Settings in here override those in "Default/Preferences.sublime-settings", and
+// are overridden in turn by file type specific settings.
+// Remember to symlink subl
+// ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+{
+    "auto_complete": true,
+    "auto_complete_commit_on_tab": true,
+    "close_windows_when_empty": false,
+    "draw_white_space": "all",
+    "find_selected_text": true,
+    "fold_buttons": false,
+    "font_options":
+    [
+        "subpixel_antialias"
+    ],
+    "font_size": 13.0,
+    "highlight_line": true,
+    "rulers":
+    [
+        72, 79
+    ],
+    "theme": "Soda Dark.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "_build", "dist", "build", "site"]
+}
