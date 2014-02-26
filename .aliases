@@ -25,4 +25,4 @@ alias td='/opt/local/bin/twistd-2.7'
 alias gl='git log'
 alias gd='git diff'
 alias gs='git status'
-
+alias git_delete_merged_branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
