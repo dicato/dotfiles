@@ -26,3 +26,8 @@ alias gl='git log'
 alias gd='git diff'
 alias gs='git status'
 alias git_delete_merged_branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+
+#Docker Aliases
+alias dockercleanup='docker rmi -f $(docker images -q --filter "dangling=true")'
+alias dockershellinit='$(boot2docker shellinit)'
+
