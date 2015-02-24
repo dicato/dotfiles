@@ -30,4 +30,4 @@ alias git_delete_merged_branches='git branch --merged | grep -v "\*" | xargs -n 
 #Docker Aliases
 alias dockercleanup='docker rmi -f $(docker images -q --filter "dangling=true")'
 alias dockershellinit='$(boot2docker shellinit)'
-
+alias dockercoreos='export DOCKER_HOST="tcp://127.0.0.1:2375"'
