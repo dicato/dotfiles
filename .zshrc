@@ -35,3 +35,7 @@ source $ZSH/oh-my-zsh.sh
 
 if [ -e "$HOME/.bash_profile" ]; then source $HOME/.bash_profile; fi
 if [ -e "$HOME/.work-env" ]; then source $HOME/.work-env; fi
+
+source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+

@@ -1,33 +1,37 @@
-#Aliases
+# Aliases
 
-#ls
+# ls
 alias ll='ls -alFh'
 alias la='ls -A'
 alias chkpath="echo $PATH |tr \':\' \'\\\n\' |xargs ls -ld"
 
-#File manipulations
+# File manipulations
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 alias rmr='rm -r -i'
 
-#Process manipulations
+# Process manipulations
 alias psall='ps -elf'
 alias psuser='ps -ax -j'
 
-#GUI Applications
+# GUI Applications
 alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox-bin -ProfileManager -no-remote'
 
 #MacPorts installed applications
 alias td='/opt/local/bin/twistd-2.7'
 
-#Git Aliases
+# Git Aliases
 alias gl='git log'
 alias gd='git diff'
 alias gs='git status'
 alias git_delete_merged_branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
-#Docker Aliases
+# Docker Aliases
 alias dockercleanup='docker rmi -f $(docker images -q --filter "dangling=true")'
 alias dockershellinit='$(boot2docker shellinit)'
 alias dockercoreos='export DOCKER_HOST="tcp://127.0.0.1:2375"'
+
+# Change DNS settings easily
+alias setdns='networksetup -setdnsservers Wi-Fi'
+alias getdns='networksetup -getdnsservers Wi-Fi'
