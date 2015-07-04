@@ -1,7 +1,15 @@
 export EDITOR=vim
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
-#CLI Colors
+# CLI Colors
 export CLICOLOR=1
-#Change the dark blue to something better
+
+# Change the dark blue to something better
 export LSCOLORS=gxfxcxdxbxegedabagacad
+
+# virtualenv
+export WORKON_HOME=$HOME/code/environments
+export PROJECT_HOME=$HOME/code
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+source /usr/local/bin/virtualenvwrapper.sh

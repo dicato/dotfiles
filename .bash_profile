@@ -23,5 +23,3 @@ export PROMPT_COMMAND="history -a; history -c; history -r"
 #[ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2)" scp sftp ssh
 
 if [ -e .git-completion.bash ]; then source .git-completion.bash; fi
-if [ -e "$HOME/.work-env" ]; then source $HOME/.work-env; fi
-
