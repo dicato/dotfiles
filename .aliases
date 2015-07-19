@@ -35,3 +35,8 @@ alias dockercoreos='export DOCKER_HOST="tcp://127.0.0.1:2375"'
 # Change DNS settings easily
 alias setdns='networksetup -setdnsservers Wi-Fi'
 alias getdns='networksetup -getdnsservers Wi-Fi'
+
+# Find listening ports
+alias uports='lsof -n -i udp -P'
+alias tports='lsof -n -i tcp -P -sTCP:LISTEN'
+
