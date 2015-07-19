@@ -37,6 +37,6 @@ alias setdns='networksetup -setdnsservers Wi-Fi'
 alias getdns='networksetup -getdnsservers Wi-Fi'
 
 # Find listening ports
-alias uports='lsof -n -i udp -P'
-alias tports='lsof -n -i tcp -P -sTCP:LISTEN'
+alias uports='sudo lsof -n -i udp -P'
+alias tports='sudo lsof -n -i tcp -P -sTCP:LISTEN'
 
