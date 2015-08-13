@@ -16,3 +16,7 @@
 	email = stephendicato@gmail.com
 [url "git@github.com:"]
 	insteadOf = git://github.com/
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
