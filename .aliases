@@ -38,4 +38,5 @@ alias getdns='networksetup -getdnsservers Wi-Fi'
 # Find listening ports
 alias uports='sudo lsof -n -i udp -P'
 alias tports='sudo lsof -n -i tcp -P -sTCP:LISTEN'
+alias myip='curl https://whatismyaddress.herokuapp.com/'
 
