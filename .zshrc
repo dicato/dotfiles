@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="locker537"
+# ZSH_THEME="locker537"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -36,6 +36,7 @@ source $ZSH/oh-my-zsh.sh
 if [ -e "$HOME/.bash_profile" ]; then source $HOME/.bash_profile; fi
 if [ -e "$HOME/.work-env" ]; then source $HOME/.work-env; fi
 
-source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+# Uncomment if using Google Cloud SDK
+# source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+# source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
