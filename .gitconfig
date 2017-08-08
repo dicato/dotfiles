@@ -9,6 +9,7 @@
 	incoming = log HEAD..origin
 	outgoing = log origin..HEAD
 	whamzilla = push --no-verify origin master
+	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 [color]
 	ui = true
 [user]
